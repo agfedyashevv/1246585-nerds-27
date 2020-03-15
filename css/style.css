@@ -9,7 +9,6 @@ body {
   color: #000000;
   text-transform: uppercase;
   background-color: #ffffff;
-  outline: 1px solid red;
 }
 
 a {
@@ -41,7 +40,6 @@ html {
 .header__navigation {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .header__item--color {
@@ -50,12 +48,11 @@ html {
 
 .header {
   background-color: #eeeeee;
-  padding-top: 49px;
+  padding-top: 48px;
   padding-bottom: 25px;
 }
 
 .header__list,
-.header__basket,
 .advantage__list,
 .ready-projects__list,
 .footer__list {
@@ -65,19 +62,26 @@ html {
   padding: 0;
 }
 
-.header__list,
-.header__basket {
+.header__list {
   line-height: 30px;
-  margin-top: 25px;
+  margin-top: 26px;
   font-weight: 500;
 }
 
 .header__item:not(:last-child) {
-  margin-right: 48px;
+  margin-right: 46px;
+}
+
+.header__list:last-child {
+  margin-left: auto;
 }
 
 .header__logo {
-  display: block;
+  margin-right: 202px;
+}
+
+.header__item--basket:not(:last-child) {
+  margin-right: 21px;
 }
 
 .advantage {
@@ -213,12 +217,4 @@ html {
   font-size: 36px;
   font-weight: 700;
   line-height: 36px;
-}
-
-li {
-  outline: 1px solid green;
-}
-
-ul {
-  outline: 1px solid red;
 }
