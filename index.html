@@ -3,10 +3,108 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+    <header class="header">
+      <div class="page-wrapper">
+        <nav class="header__navigation">
+          <a>
+            <img class="header__logo" src="img/nerds-logo.svg" width="160" height="65" alt="Логотип сайта Нёрдс"/>
+          </a>
+          <ul class="header__list">
+            <li class="header__item"><a class="header__item--color" href="#">Студия</a></li>
+            <li class="header__item"><a class="header__item--color" href="#">Клиенты</a></li>
+            <li class="header__item"><a class="header__item--color" href="#">Магазин</a></li>
+            <li class="header__item"><a class="header__item--color" href="#">Контакты</a></li>
+          </ul>
+          <ul class="header__basket">
+            <li><a class="header__item--color" href="#">Корзина</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+    <main>
+      <div class="page-wrapper">
+        <h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
+        <section class="advantage">
+          <h2 class="visually-hidden">Чем занимается студия?</h2>
+          <ul class="advantage__list">
+            <li class="advantage__item advantage__item--web">
+              <h3 class="advantage__heading">Веб-сайты</h3>
+              <p class="advantage__text">Мир никогда не будет прежним после&nbsp;того как увидит ваш сайт!</p>
+              <a class="advantage__button advantage__button--red" href="#">Заказать</a>
+            </li>
+            <li class="advantage__item advantage__item--application">
+              <h3 class="advantage__heading">Приложения</h3>
+              <p class="advantage__text">Покорите топ-10 приложений в AppStore и Google Play</p>
+              <a class="advantage__button advantage__button--green" href="#">Заказать</a>
+            </li>
+            <li class="advantage__item advantage__item--presentation">
+              <h3 class="advantage__heading">Презентации</h3>
+              <p class="advantage__text">Вы даже не подозреваете, насколько&nbsp;вы изумительны!</p>
+              <a class="advantage__button advantage__button--yellow" href="#">Заказать</a>
+            </li>
+          </ul>
+        </section>
 
+        <section class="company-description">
+
+        </section>
+
+        <section class="ready-projects">
+          <h2 class="visually-hidden">Выполнненные проекты</h2>
+          <ul class="ready-projects__list">
+            <li class="ready-projects__item">
+              <a>
+                <img src="img/htmlacademy-logo.png" width="199" height="68" alt="Логотип сайта Html Academy"/>
+              </a>
+            </li>
+            <li class="ready-projects__item">
+              <a>
+                <img src="img/borodinski-logo.png" width="209" height="90" alt="Логотип сайта Барбершоп Бородинский"/>
+              </a>
+            </li>
+            <li class="ready-projects__item">
+              <a>
+                <img src="img/pink-logo.png" width="185" height="52" alt="Логотип сайта PINK"/>
+              </a>
+            </li>
+            <li class="ready-projects__item">
+              <a>
+                <img src="img/mishka-logo.png" width="173" height="84" alt="Логотип сайта Mишка"/>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <section class="map">
+
+    </section>
+
+    <footer class="footer page-wrapper">
+      <div class="footer__socials">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__button" href="#" aria-label="VK"></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__button" href="#" aria-label="Facebook"></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__button" href="#" aria-label="Instagram"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__text">
+        <span class="footer__text--friends">Давайте дружить, это выгодно!</span>
+        <span class="footer__text--discount">Скидка 10% для друзей из социальных сетей.</span>
+      </div>
+    </footer>
   </body>
 </html>
